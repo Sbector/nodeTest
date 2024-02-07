@@ -1,0 +1,11 @@
+const os = require('node:os')
+
+console.log(os.platform())
+console.log('__________________________')
+console.log(os.release())
+console.log('__________________________')
+console.log(os.arch())
+console.log('__________________________')
+console.log(os.cpus())
+console.log('__________________________')
+console.log(os.uptime() /60 /60)
